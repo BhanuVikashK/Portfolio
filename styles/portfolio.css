@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');
+
+
+:root{
+    --primary-color:#60A5FA;
+    --secondary-color:#3B82F6;
+}
+
+.body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NavBar*/
+.navbar {
+    background-color:var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+        
+}
+
+.name-homepage{
+    display: block;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    margin:0rem 1rem;
+    padding: 1rem 0.2rem 1rem 0.2rem;
+    font-size: 1.5rem;
+}
+
+/* lists */
+ul{
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin:1rem 1rem;
+    padding: 0.5rem;
+}
+li a:hover{
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+}
